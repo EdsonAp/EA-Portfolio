@@ -145,9 +145,19 @@ li :hover{
     padding-top: 60px;
 }
 
+.repo-link{
+    color: white;
+    text-decoration: none !important;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
 .card-title{
     color: rgb(247, 75,75);
+    text-align: center;
 }
+
 
 .btn{
     background-image: linear-gradient(rgb(0, 217, 255),rgb(0, 178, 248),rgb(0, 179, 179));
@@ -156,12 +166,9 @@ li :hover{
     text-decoration: none;
 }
 
-.btn :hover{
-    color: pink !important;
-}
 
 .social{
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .connect{
@@ -181,12 +188,14 @@ li :hover{
 
 .con-box{
     background: rgb(255, 255, 255)!important;
+    height: 700px;
 }
 
 .form-box{
     background: #263238;
     height: 600px;
     text-align: center;
+    width: 100%;
 }
 
 .form-2{
@@ -229,12 +238,15 @@ li :hover{
 
 /* Media Queries */
 
-@media(max-width: 510px){
+@media(max-width: 500px){
     .bar {
-        height: 600px;
+        height: auto;
+    }
+    .tron1{
+        height: 800px;
     }
     .title{
-        transform: translateY(20%);
+        transform: translateY(40%);
     }
     .navbar{
         height: auto;
@@ -244,6 +256,10 @@ li :hover{
     }
     .icon{
         margin-left: 30%
+    }
+    .cono{
+        padding: 50px;
+        margin-left: 22%;
     }
 }
 
