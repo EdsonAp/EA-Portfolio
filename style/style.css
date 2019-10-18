@@ -15,9 +15,9 @@ div[id]:before{
     visibility: hidden;
 }
 .navbar{
-    height: 60px;
+    height: auto;
     position: fixed;
-    top: o;
+    top: 0;
     z-index: 1;
     display: flex;
     width: 100%;
@@ -236,7 +236,15 @@ li :hover{
     .title{
         transform: translateY(20%);
     }
-
+    .navbar{
+        height: auto;
+    }
+    .skill-text{
+        display: right;
+    }
+    .icon{
+        margin-left: 32%
+    }
 }
 
 /* Extra small devices (portrait phones, less than 576px)
