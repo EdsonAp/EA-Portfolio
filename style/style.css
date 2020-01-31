@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
 body {
     margin: 0px;
     padding: 0px;
@@ -238,7 +237,7 @@ li :hover{
 
 /* Media Queries */
 
-@media(max-width: 500px){
+@media(max-width: 510px){
     .bar {
         height: auto;
     }
