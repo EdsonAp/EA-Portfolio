@@ -13,10 +13,3 @@ $('.navbar a').on('click', function (e) {
     }
 });
 
-window.sr = ScrollReveal();
-
-sr.reveal('.line', {
-    duration: 1000,
-    origin: 'left',
-    distance: '500px',
-});
